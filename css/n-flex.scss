@@ -1,0 +1,45 @@
+//align & justify
+.--d-flex {
+    @extend %flex;
+    @extend %flex-wrap;
+}
+
+.--a-center {
+    @extend %flex-a-center;
+}
+
+.--a-start {
+    @extend %flex-a-start;
+}
+
+.--a-end {
+    @extend %flex-a-end;
+}
+
+.--a-between {
+    @extend %flex-a-between;
+}
+
+.--a-around {
+    @extend %flex-a-around;
+}
+
+.--j-center {
+    @extend %flex-j-center;
+}
+
+.--j-start {
+    @extend %flex-j-start;
+}
+
+.--j-end {
+    @extend %flex-j-end;
+}
+
+.--j-between {
+    @extend %flex-j-between;
+}
+
+.--j-around {
+    @extend %flex-j-around;
+}
